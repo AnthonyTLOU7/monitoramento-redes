@@ -114,7 +114,6 @@ monitoramento-redes/
 - **.gitignore:** impede o versionamento de arquivos privados e temporários.
 - **README.md:** contém a documentação do projeto.
 - **data/historico.json:** armazena localmente o histórico das verificações.
-```
 
 
 ## 7. Instalação e configuração
