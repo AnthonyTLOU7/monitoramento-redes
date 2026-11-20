@@ -233,3 +233,27 @@ A demonstração apresenta:
 4. Recebimento de alerta no Discord.
 5. Registro das verificações em JSON.
 6. Teste simulado de queda e recuperação.
+
+### Imagem 1: Monitoramento automático
+
+![Terminal com Google e GitHub online, HTTPBin offline e envio do alerta confirmado](docs/imagens/01-monitoramento-terminal.png)
+
+O terminal mostra as verificações do Google, do GitHub e do HTTPBin. Google e GitHub retornaram HTTP 200, enquanto o HTTPBin retornou HTTP 503. A saída confirma o envio do alerta ao Discord.
+
+### Imagem 2: Alerta no Discord
+
+![Alerta no Discord com código HTTP 503 e tempo de resposta do HTTPBin](docs/imagens/02-alerta-discord.png)
+
+Notificação real enviada pelo sistema ao Discord após detectar uma resposta HTTP 503 do HTTPBin.
+
+### Imagem 3: Histórico JSON
+
+![Registros JSON das verificações do Google, do GitHub e do HTTPBin](docs/imagens/03-historico-json.png)
+
+O histórico em JSON registra a URL, a data e hora, o código HTTP, o tempo de resposta e a disponibilidade de cada site.
+
+### Imagem 4: Queda e recuperação
+
+![Duas notificações no Discord, uma de indisponibilidade e outra de recuperação](docs/imagens/04-recuperacao-discord.png)
+
+Os estados HTTP 503 (indisponível) e HTTP 200 (recuperado) foram simulados. As duas notificações foram realmente enviadas ao Discord durante o teste.
