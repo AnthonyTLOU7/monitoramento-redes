@@ -130,7 +130,7 @@ monitoramento-redes/
 Clone o repositório:
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/AnthonyTLOU7/monitoramento-redes.git
 cd monitoramento-redes
 ```
 
